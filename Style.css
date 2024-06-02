@@ -1,0 +1,138 @@
+/* Universal */
+
+.viewport {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+}
+
+
+
+/* Nav Bar */
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 0 90px;
+    align-items: center;
+}
+
+/* Sub Nav Bar */
+
+.subnavbar {
+    height: 45px;
+    width: 100%;
+    background-color: #FF6600;
+}
+
+.subnavbar p {
+    text-align: center;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 825px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1481567758055-3e8a6e89ca58?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+   line-height: 0px;
+   padding-left: 50px;
+}
+
+button {
+    height: 70px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-color: #FF6600;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0.5);
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+/* Items */
+
+.viewport1 {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.container img {
+    width: 314px;
+    height: 500px;
+}
+
+.container p {
+    display: flex;
+    align-items: center;
+}
+
+
+/* subscribe */
+
+.viewport2 {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-image: url(https://images.unsplash.com/photo-1617719445910-effa370eea18?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    
+}
+
+.emailsub {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}
+
